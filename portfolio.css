@@ -1,0 +1,178 @@
+#portfolio {
+  padding: 60px 0;
+  overflow: hidden;
+  background-color: #f3f5fa;
+  font-family: 'Open Sans', sans-serif;
+  color: #444444;
+  box-sizing: border-box;
+}
+
+.portfolio-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.portfolio-title h2 {
+  font-family: 'Jost', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #37517e;
+}
+
+.portfolio-title h2::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.portfolio-title h2::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #47b2e4;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.portfolio-title p {
+  margin-bottom: 0;
+  width: 70%;
+  line-height: 28px;
+  margin: 2% auto 0;
+  font-size: 16px;
+  text-align: center;
+}
+
+/*------------------------------------------*/
+
+#portfolio * {
+  box-sizing: border-box;
+}
+
+.p-wrap {
+  width: 100vw;
+  height: auto;
+}
+
+.p-wrap h2 {
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+}
+
+#p-tab input:nth-of-type(1),
+#p-tab input:nth-of-type(1) ~ div:nth-of-type(1),
+#p-tab input:nth-of-type(2),
+#p-tab input:nth-of-type(2) ~ div:nth-of-type(2),
+#p-tab input:nth-of-type(3),
+#p-tab input:nth-of-type(3) ~ div:nth-of-type(3),
+#p-tab input:nth-of-type(4),
+#p-tab input:nth-of-type(4) ~ div:nth-of-type(4) {
+  display: none;
+}
+
+#p-tab input:nth-of-type(1):checked ~ div:nth-of-type(1),
+#p-tab input:nth-of-type(2):checked ~ div:nth-of-type(2),
+#p-tab input:nth-of-type(3):checked ~ div:nth-of-type(3),
+#p-tab input:nth-of-type(4):checked ~ div:nth-of-type(4) {
+  display: block;
+}
+
+#p-tab > label {
+  display: inline-block;
+  font-size: 1em;
+  padding: 7px;
+  text-align: center;
+  width: auto;
+  line-height: 2.4em;
+  color: black;
+}
+
+#p-tab {
+  text-align: center;
+}
+
+#p-tab > label:hover {
+  cursor: pointer;
+}
+
+#p-tab input:nth-of-type(1):checked ~ label:nth-of-type(1),
+#p-tab > label[for='tab1']:hover {
+  background-color: #47b2e4;
+  color: #fff;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+#p-tab input:nth-of-type(2):checked ~ label:nth-of-type(2),
+#p-tab > label[for='tab2']:hover {
+  background-color: #47b2e4;
+  color: #fff;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+#p-tab input:nth-of-type(3):checked ~ label:nth-of-type(3),
+#p-tab > label[for='tab3']:hover {
+  background-color: #47b2e4;
+  color: #fff;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+#p-tab input:nth-of-type(4):checked ~ label:nth-of-type(4),
+#p-tab > label[for='tab4']:hover {
+  background-color: #47b2e4;
+  color: #fff;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.p-imagefile {
+  overflow: hidden;
+  display: flex;
+}
+
+.p-img img {
+  width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.p-1,
+.p-2,
+.p-3 {
+  margin: 5px 0;
+  overflow: hidden;
+}
+
+.p-1 {
+  flex: 1;
+  text-align: right;
+}
+
+.p-2 {
+  flex: 1;
+  text-align: center;
+}
+
+.p-3 {
+  flex: 1;
+  text-align: left;
+}
+
+.p-img:hover {
+  filter: brightness(40%);
+}

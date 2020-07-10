@@ -1,0 +1,571 @@
+/*====================================Default =====================================*/
+/*To DO*/
+/*font 바꾸기 , 화면 크기 변화*/
+
+* {
+    font-family: 'Open Sans';
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #1e5f8d;
+    text-decoration: none;
+}
+
+/*====================================header CSS 시작=====================================*/
+#header {
+    width: 100%;
+}
+
+#header_upper {
+    width: 100%;
+    height: 65px;
+    background-color: white;
+    overflow: hidden;
+}
+
+#header_upper #left {
+    width: 45%;
+    float: left;
+    overflow: hidden;
+}
+
+#header_upper #left img {
+    max-width: 200px;
+    float: left;
+    margin: 10px;
+    padding: 10px 15px 0 8px;
+    border-right: solid 1px lightgray;
+}
+
+#header_upper #left .device_icon {
+    float: left;
+    margin: 20px 5px 5px 5px;
+    padding: 5px;
+}
+
+#header_upper #left .device_icon i {
+    color: gray;
+    font-size: 1.2em;
+}
+
+#header_upper #left .device_icon .fa-desktop {
+    color: #00C3DA;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #00C3DA;
+}
+
+#header_upper #left .device_icon a {
+    padding: 10px;
+}
+
+#header_upper #right {
+    width: 50%;
+    float: right;
+    margin-top: 3px;
+    margin-right: 1%;
+    /*overflow: hidden;*/
+    /*position: fixed;*/
+    /*top: 5px;*/
+    /*right: 10px;*/
+}
+
+#header_upper #right .link_icon {
+    width: 5%;
+    height: 40px;
+    margin: 2% 5px 5px 0;
+    float: right;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    line-height: 40px;
+    text-align: center;
+}
+
+#header_upper #right .link_icon:nth-child(3) {
+    background-color: #3ea7de;
+    width: 15%;
+}
+
+#header_upper #right .link_icon i {
+    color: gray;
+    padding:5px;
+}
+
+#header_upper #right .link_icon a {
+    padding: 5px;
+}
+
+#header_upper #right .link_icon .fa-download {
+    color: white;
+}
+
+#header_upper #right p {
+    float: right;
+    font-size: 0.7em;
+    line-height: 0px;
+}
+
+#header_middle {
+    background-color: #304773;
+    width: 100%;
+    height: 73px;
+}
+
+#header_middle #middle_wrap {
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#header_middle #middle_wrap #header_title {
+    float: left;
+    width: 100px;
+    margin-top: 10px;
+}
+
+#header_middle #middle_wrap #header_title a {
+    color: white;
+    font-size: 0.8em;
+}
+
+#header_middle #middle_wrap #site_nav {
+    float: right;
+    height: 73px;
+}
+
+#header_middle #middle_wrap ul {
+    float: left;
+    line-height: 73px;
+}
+
+#header_middle #middle_wrap #site_nav > ul li {
+    float: left;
+    margin: 0 10px 0 10px;
+    padding: 5px;
+}
+
+#header_middle #middle_wrap #site_nav > ul li:first-child a {
+    color: #00C3DA;
+}
+
+#header_middle #middle_wrap #site_nav > ul li a {
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+#site_nav .deep_drop_down > ul {
+    display: none;
+}
+
+#site_nav .drop_down > ul {
+    display: none;
+}
+
+#header_middle #middle_wrap ul li button {
+    border: 1px solid #3ea7de;
+    background-color: transparent;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+/*#header_middle #middle_wrap ul .drop_down:hover >ul{*/
+/*    display: block;*/
+/*}*/
+
+#header_upper {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+}
+
+#header_middle {
+    position: fixed;
+    z-index: 999;
+    top: 65px;
+}
+
+#header_lower {
+    position: relative;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    background-color: #304773;
+    height: 700px;
+}
+
+#header_lower #lower_wrap {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    /*align-items: center;*/
+    /*flex-wrap: wrap;*/
+}
+
+#header_lower #lower_wrap #intro {
+    /*float: left;*/
+    margin-top: 15%;
+}
+
+.slogan p:first-child {
+    color: white;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.slogan p:last-child {
+    color: #acb5c7;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.link {
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.link .start_btn {
+    float: left;
+}
+
+.link .start_btn button {
+    width: 100px;
+    height: 35px;
+    border: 1px solid #3ea7de;
+    background-color: #3ea7de;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+.link .start_btn button a {
+    color: white;
+}
+
+.link .video_icon {
+    margin-left: 20px;
+    float: left;
+    line-height: 35px;
+    font-size: 1.2em;
+}
+
+.link .video_icon a {
+    color: white;
+}
+
+#header_lower #lower_wrap #main_img {
+    float: right;
+    position: relative;
+    width: 50%;
+    height: auto;
+}
+
+#header_lower #lower_wrap #main_img img {
+    max-width: 500px;
+    position: relative;
+    margin-left: 10%;
+    /*margin-top: 50px;*/
+}
+
+@media (max-width: 992px) {
+    .device_icon{
+        display: none;
+    }
+    #site_nav ul {
+        display: none;
+    }
+
+    #site_nav > ul > li:last-child {
+        display: block;
+    }
+
+    #header_lower #lower_wrap {
+        flex-direction: column-reverse;
+        align-content: center;
+        text-align: center;
+        /*font-size: .8em;*/
+        justify-content: flex-end;
+    }
+
+    #header_lower #lower_wrap #intro {
+
+
+    }
+    #header_lower #lower_wrap #main_img{
+        width: 80%;
+        height: 300px;
+    }
+
+    #header_lower #lower_wrap #main_img img {
+        max-width: 400px;
+
+        /*position: relative;*/
+
+        /*top: 30%;*/
+        /*left: 30%;*/
+    }
+
+    #header_lower {
+        height: 800px;
+    }
+
+    #header_lower #lower_wrap #main_img #img_content {
+        animation-play-state: paused;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 766px) {
+    #left {
+        display: none;
+    }
+    #header_upper #right{
+        width: 100%;
+        margin: 0 auto;
+        float: left;
+    }
+    #header_upper #right .link_icon{
+        width: 12%;
+    }
+    #header_upper #right .link_icon p{
+        display: none;
+    }
+
+}
+
+
+
+
+
+#header_lower #lower_wrap #main_img #img_content {
+    animation-name: img_ani;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /*animation-timing-function:ease-in;*/
+    position: absolute;
+    top: 10%;
+    left: 0;
+}
+
+@keyframes img_ani {
+    from {
+        top: 8%;
+        left: 0%;
+    }
+    to {
+        top: 13%;
+        left: 0%;
+    }
+}
+
+/*====================================header CSS 끝=====================================*/
+
+
+/*====================================Main CSS 시작=====================================*/
+
+#main {
+    width: 100%;
+    position: relative;
+}
+
+#main #main_top {
+    width: 100%;
+    background-color: #f3f5f9;
+    height: 100px;
+    display: flex;
+}
+
+#main #clients {
+    display: flex;
+    width: 70%;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#main #clients .clients_image {
+
+    align-items: center;
+    position: relative;
+    text-align: center;
+
+}
+
+#main #clients .clients_image img {
+    max-width: 100px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+
+#main #clients .clients_image:hover img {
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+
+/*====================================Main CSS 끝=====================================*/
+
+
+/*====================================Footer CSS 시작=====================================*/
+#footer {
+    width: 100%;
+    overflow: hidden;
+}
+
+#footer #footer_upper {
+    background-color: #f3f5f9;
+    display: flex;
+}
+
+#footer #footer_upper p:nth-child(1) {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #304773;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+#footer #footer_upper p:nth-child(2) {
+    margin-top: 20px;
+    color: gray;
+    text-align: center;
+}
+
+#footer #footer_upper form {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#footer #footer_upper form input:first-child {
+    width: 30%;
+    height: 45px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+#footer #footer_upper form input:last-child {
+    width: 10%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #1bb1dc;
+    border: 1px solid #1bb1dc;
+    color: white;
+    padding: 1%;
+
+}
+
+
+#footer #footer_middle {
+    background-color: #ffffff;
+    width: 100%;
+}
+#footer #footer_middle .container{
+    width: 80%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+#footer #footer_middle .container h2, #footer #footer_middle .container h4{
+    color: #304773;
+}
+#footer #footer_middle .container p{
+    color: gray;
+}
+#footer #footer_middle .container a{
+    text-decoration: none;
+    color: gray;
+}
+#footer #footer_middle .container ul{
+    padding: 0 0 0 0;
+}
+#footer #footer_middle .container ul li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#footer #footer_middle .container i{
+    color: #00C3DA;
+}
+#footer #footer_middle .container .fourth p{
+    color: black;
+}
+#footer #footer_middle .container .fourth a{
+    width: 20px;
+    margin-right: 10px;
+}
+.social-links{
+    margin-left: 20px;
+}
+#footer #footer_middle .container .fourth i{
+    color: white;
+    background-color: #00C3DA;
+    border: 1px solid #00C3DA;
+    border-radius: 100%;
+    font-size: 1.5em;
+    padding: 3px;
+}
+#footer #footer_lower {
+    width: 100%;
+    height: 100px;
+    background-color: #304773;
+    overflow: hidden;
+
+}
+
+#footer #footer_lower #container {
+    width: 90%;
+}
+
+#footer #footer_lower .copyright {
+    text-align: left;
+    font-size: 0.9em;
+    line-height: 100px;
+    margin-left: 40px;
+    color: white;
+    float: left;
+}
+
+#footer #footer_lower .design {
+    text-align: right;
+    font-size: .9em;
+    line-height: 100px;
+    margin-right: 15px;
+    color: white;
+    float: right;
+}
+
+#footer #footer_lower .design a {
+    color: #3ea7de;
+}
+
+.top_page {
+    width: 45px;
+    line-height: 45px;
+    height: 45px;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    display: inline;
+    font-size: 2.0em;
+    background: #3ea7de;
+    color: white;
+    text-align: center;
+    border-radius: 100%;
+    z-index: 999;
+
+}
+
+/*====================================Footer CSS 끝=====================================*/

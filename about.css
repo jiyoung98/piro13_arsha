@@ -1,0 +1,428 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Jost", sans-serif;
+}
+
+section {
+  padding: 60px 0;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+.section-bg {
+  background-color: #f3f5fa;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #37517e;
+}
+
+.section-title h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #47b2e4;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+}
+
+<!-- About us Sections-- > .about row-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.row1 {
+  width: 450px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 1.5rem;
+  display: inline-block;
+  position: relative;
+  left: 15%;
+}
+
+.row1 p {
+  font-size: 16px;
+  margin: 0 0 16px;
+}
+
+.row1 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 16px;
+}
+
+.row1 ul li {
+  margin: 10px 0 0;
+  padding: 0 0 0 28px;
+  position: relative;
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.row2 {
+  width: 450px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 0;
+  display: inline-block;
+  position: relative;
+  left: 20%;
+  bottom: 50px;
+}
+
+.row2 p {
+  margin: 0 0 16px;
+}
+
+.about .btn-learn-more {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 4px;
+  transition: 0.3s;
+  line-height: 1;
+  color: #47b2e4;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  margin-top: 6px;
+  border: 2px solid #47b2e4;
+}
+
+<!-- Why us Section-- > .why-us col-lg-7 {
+  display: inline-block;
+}
+
+.col-lg-7 .content {
+  width: 75%;
+}
+
+.why-us .row-content2 div {
+  padding: 30px 0 0;
+}
+
+.why-us .content h3 {
+  font-weight: 400;
+  font-size: 34px;
+  color: #37517e;
+  margin: 0 0 8px;
+}
+
+.why-us .content h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.why-us .content strong {
+  font-weight: bold;
+}
+
+
+.why-us .content p {
+  font-size: 15px;
+  color: #848484;
+  margin: 0 0 16px;
+}
+
+.why-us .accordion-list {
+  padding: 0 100px 60px 100px;
+}
+
+@media (max-width: 1024px) {
+  .why-us .content,
+  .why-us .accordion-list {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .why-us .img {
+    min-height: 400px;
+  }
+
+  .why-us .content {
+    padding-top: 30px;
+  }
+
+  .why-us .accordion-list {
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 575px) {
+  .why-us img {
+    min-height: 200px;
+  }
+}
+
+.skills .rows {
+  display: flex;
+  justify-content: center;
+  position: center;
+}
+
+.skills .row3 {
+  display: inline-block;
+  position: relative;
+  left: 20%;
+}
+
+.skills .row4 {
+  display: inline-block;
+  position: relative;
+  flex: 0 0 50%;
+  max-width: 50%;
+  margin-left: 30px;
+  left: 30%;
+}
+
+.skills .row4 h3 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #37517e;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 8px;
+}
+
+.skills .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills .content ul li {
+  padding-bottom: 10px;
+}
+
+.skills .content ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #47b2e4;
+}
+
+.skills .content p {
+  font-style: italic;
+}
+
+.skills .content p:last-child {
+  margin-bottom: 0;
+}
+
+.skills .progress {
+  height: 50px;
+  display: block;
+  background: none;
+}
+
+.skills .progress .skill {
+  padding: 10px 0;
+  margin: 0 0 6px;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #37517e;
+}
+
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.skills .progress-bar-wrap {
+  background: #e8edf5;
+}
+
+.skills .progress-bar1 {
+  float: left;
+  width: 100%;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #4668a2;
+}
+
+.skills .progress-bar2 {
+  float: left;
+  width: 90%;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #4668a2;
+}
+
+.skills .progress-bar3 {
+  float: left;
+  width: 75%;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #4668a2;
+}
+
+.skills .progress-bar4 {
+  float: left;
+  width: 25%;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #4668a2;
+}
+
+.E_QList {
+  padding: 0 100px 60px 100px;
+  display: inline-block;
+  width: 60%;
+}
+
+.E_QList .liwrap {
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+.E_QList li {
+  text-align: left;
+  list-style: none;
+  text-decoration: none;
+}
+
+.E_QList li .E_plus {
+  float: right;
+  margin: 0 10px 0 0;
+}
+
+.E_Question1,
+.E_Question2,
+.E_Question3 {
+  position: relative;
+  color: #37517e;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 20px;
+  bottom: 38px;
+}
+
+.E_Question1:hover,
+.E_Question2:hover,
+.E_Question3:hover {
+  color: #47b2e4;
+}
+
+.labelwrap {
+  height: 20px;
+  margin-left: 1%;
+  line-height: 20px;
+}
+
+.fa-chevron-down {
+  margin-right: 10px;
+}
+
+.E_Answer1,
+.E_Answer2,
+.E_Answer3 {
+  position: relative;
+  animation-name: tglAre;
+  animation-duration: 2s;
+  display: none;
+  height: 10vh;
+  overflow: hidden;
+  font-size: 16px;
+  margin-left: 2%;
+  margin-right: 2%;
+  color: gray;
+  bottom: 30px;
+}
+
+.E_Opener1,
+.E_Opener2,
+.E_Opener3 {
+  display: none;
+}
+
+@keyframes tglA {
+  from {
+    height: 0;
+  }
+  to {
+  }
+}
+
+.E_Opener1:checked ~ .E_Answer1 {
+  display: block;
+  animation-name: tglA;
+  animation-duration: 0.5s;
+}
+
+.E_Opener2:checked ~ .E_Answer2 {
+  display: block;
+  animation-name: tglA;
+  animation-duration: 0.5s;
+}
+
+.E_Opener3:checked ~ .E_Answer3 {
+  display: block;
+  animation-name: tglA;
+  animation-duration: 0.5s;
+}
+
+.col-lg-5 img {
+  position: relative;
+  float: right;
+  bottom: 400px;
+}

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9c01c6e0-fced-4b41-8457-fcee0b4e62aa" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1eRmspCLF7gvQLSHdLDFYud1VXH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c01c6e0-fced-4b41-8457-fcee0b4e62aa" name="Default Changelist" comment="" />
+      <created>1594292988729</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594292988729</updated>
+      <workItem from="1594292995003" duration="43606000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1930" y="138" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594384824396">
+      <screen x="1680" y="0" width="1024" height="768" />
+    </state>
+    <state x="1930" y="138" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1680.0.1024.768/0.0.1680.1050@1680.0.1024.768" timestamp="1594384824396" />
+    <state x="0" y="0" width="1680" height="1050" maximized="true" key="dock-window-1" timestamp="1594378346451">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="0" y="0" width="1680" height="1050" maximized="true" key="dock-window-1/1680.0.1024.768/0.0.1680.1050@1680.0.1024.768" timestamp="1594378346451" />
+    <state x="0" y="0" width="1680" height="1050" key="dock-window-1/1680.0.1024.768/0.23.1680.1027@1680.0.1024.768" timestamp="1594377531520" />
+    <state x="0" y="0" width="1680" height="1050" key="dock-window-1/1680.0.1024.768/0.23.1680.947@1680.0.1024.768" timestamp="1594378316148" />
+    <state x="0" y="0" width="1680" height="1050" key="dock-window-2" timestamp="1594384595629">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="0" y="0" width="1680" height="1050" key="dock-window-2/1680.0.1024.768/0.23.1680.947@1680.0.1024.768" timestamp="1594384595629" />
+    <state x="0" y="0" width="1680" height="1050" key="dock-window-3" timestamp="1594386570379">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="0" y="0" width="1680" height="1050" maximized="true" key="dock-window-3/1680.0.1024.768/0.0.1680.1050@1680.0.1024.768" timestamp="1594386520231" />
+    <state x="0" y="0" width="1680" height="1050" key="dock-window-3/1680.0.1024.768/0.23.1680.947@1680.0.1024.768" timestamp="1594386570379" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1594349990324">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1594349990324" />
+  </component>
+</project>

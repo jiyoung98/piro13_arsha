@@ -1,0 +1,244 @@
+/* services */
+#services {
+  width: 100%;
+  padding: 60px 0;
+  overflow: hidden;
+  background-color: #f3f5fa;
+  font-family: 'Open Sans', sans-serif;
+  color: #444444;
+  box-sizing: border-box;
+}
+
+.services-title {
+  padding-bottom: 30px;
+}
+
+#services .services-contents {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#services h2 {
+  font-family: 'Jost', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #37517e;
+  text-align: center;
+}
+
+.services-title p {
+  width: 70%;
+  line-height: 28px;
+  margin: 2% auto 0;
+  font-size: 16px;
+  text-align: center;
+}
+
+#services .services-contents .services-size {
+  box-sizing: border-box;
+  padding: 0 15px;
+}
+
+#services .services-contents .ser-box {
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  width: 225px;
+  padding: 50px 30px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 1px;
+  transition: all ease-in-out 0.4s;
+  background: #fff;
+}
+
+#services .ser-box .icon i {
+  color: #47b2e4;
+  font-size: 36px;
+  transition: 0.3s;
+}
+
+#services .ser-box h3 {
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-family: 'Jost', sans-serif;
+}
+
+#services .ser-box h3 a {
+  color: #37517e;
+  transition: ease-in-out 0.3s;
+  text-decoration: none;
+}
+
+#services .ser-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+#services .ser-box:hover {
+  transform: translateY(-10px);
+}
+
+#services .ser-box:hover h3 a {
+  color: #47b2e4;
+  text-decoration: none;
+}
+
+/* .section-title h2::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.section-title h2::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #47b2e4;
+  bottom: 0;
+  left: calc(50% - 20px);
+} */
+
+/*---------------------------------------------*/
+
+/* C to A */
+
+#cta {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+/*------------------------------------*/
+
+/* .cta {
+  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)),
+    url('./cta-bg.jpg') fixed center center;
+  background-size: cover;
+  padding: 120px 0;
+}
+
+.cta h2 {
+  font-family: 'Jost', sans-serif;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+  position: relative;
+}
+
+.cta p {
+  color: #fff;
+}
+
+.cta-btn-container {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.cta .cta-btn {
+  font-family: 'Jost', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.cta .cta-btn:hover {
+  background: #47b2e4;
+  border: 2px solid #47b2e4;
+}
+
+@media (max-width: 1024px) {
+  .cta {
+    background-attachment: scroll;
+  }
+}
+
+@media (min-width: 769px) {
+  .cta .cta-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+} */
+
+/*----------------------------*/
+
+#cta {
+  width: 100%;
+  padding: 120px 0;
+  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)),
+    url('./cta-bg.jpg') fixed center center;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+#cta .cta-title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#cta .cta-size {
+  padding: 0 15px;
+  flex: 0 0 75%;
+}
+
+#cta h2 {
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+}
+
+#cta p {
+  margin-bottom: 30px;
+  line-height: 28px;
+  color: white;
+}
+
+#cta .cta-btn-container {
+  display: flex;
+  align-items: center;
+}
+
+#cta .cta-btn-container a {
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'Jost', sans-serif;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 50px;
+  margin: 10px;
+  border: 3px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+#cta .cta-btn-container a:hover {
+  background: #1bb1dc;
+  border: 3px solid #1bb1dc;
+}
