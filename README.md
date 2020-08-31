@@ -9,7 +9,7 @@ pirogramming 13기 1차 팀과제 html,css만으로 웹페이지 클론코딩하
 
 
 ### 3. language
-only html and css
+X. only html and css
 
 
 ### 4. Preview
