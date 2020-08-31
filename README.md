@@ -1,4 +1,4 @@
-# piro13_arsha
+# piro13_arsha_TeamProject
 
 ### 1. intro
 pirogramming 13기 1차 팀과제 html,css만으로 웹페이지 클론코딩하기
